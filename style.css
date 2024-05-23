@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter,sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Styling for css */
+
+nav .container {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+nav .container .item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav .container .item .icon , nav .container .item a{
+    margin: 13px 14.4px;
+}
+
+nav .container .item  .icon{
+    margin-right: auto;
+    margin-left: 10.5%;
+}
+
+nav .container .item a{
+    text-decoration: none;
+    color: #000;
+}

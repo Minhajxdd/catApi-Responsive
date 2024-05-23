@@ -112,10 +112,93 @@
                          32V352c0 17.7-14.3 32-32 32H32z"/></svg>    
                 </div>
         </div>
-    
     </section>
 
 
+    <!-- Section Two -->
+    <section class="sec-2">
+        <div class="container">
+            <div class="one">
+                <div class="codeDiv">
+                    <div class="minimise">
+                        <div class="red round"></div>
+                        <div class="yello round"></div>
+                        <div class="green round"></div>
+                    </div>
+                
+                    <div class="codeBox">
+
+                        <code>
+                            <span class="cd-keyword">const</span>
+                            headers =
+                            <span class="cd-keyword">new</span> 
+                            <span class="cd-title">Headers</span>
+                            ({
+
+                            <br><span class="cd-string codepad">"Content-Type"</span>:
+                            <span class="cd-string">"application/json"</span>,
+                            
+                            <br><span class="cd-string codepad">"x-api-key"</span>:
+                            <span class="cd-string">"DEMO-API-KEY"</span>
+
+                            <br>}); <br><br>
+
+                            <span class="cd-keyword">var</span>
+                            requestOptions = {
+
+                            <br><span class="cd-attribute codepad">method</span>:
+                            <span class="cd-string">'GET'</span>,
+                            
+                            <br><span class="cd-attribute codepad">headers</span>: headers,
+                            
+                            <br><span class="cd-attribute codepad">redirect</span>:
+                            <span class="cd-string">'follow'</span>
+
+                            <br>}; <br><br>
+
+                            <div class="single-line">
+                                <span class="cd-title">fetch</span>(<span class="cd-string">"https://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1"</span>, requestOptions)
+                            </div>
+
+                            <span class="codepad">.</span><span class="cd-title ">then</span>(<span class="cd-function">response</span>
+                            <span class="cd-arrow">=></span>
+                            <response class="span cd-title">text</response>())
+                                
+                            <br> <span class="codepad">.</span><span class="cd-title">then</span>(<span class="cd-function">result</span>
+                            <span class="cd-arrow">=></span>
+                            <span class="cd-variable">console</span>.<span class="span cd-title">log</span>(result))
+                             
+                            <br> <span class="codepad">.</span><span class="cd-title">catch</span>(<span class="cd-function">error</span>
+                            <span class="cd-arrow">=></span>
+                            <span class="cd-variable">console</span>.<span class="span cd-title">log</span>( <span class="cd-string">'error'</span>, error));
+                           
+
+                            <br><br><br>
+                        </code>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="two">
+                <h1 class="downLine">Get cats with a</h1>
+                <h1>few lines of code</h1>
+                <p>
+                    Get instant access to tens of thousands 
+                    of cats so you can delight customers with 
+                    ever changing content, facts and breed info.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+    <br><br><br><br><br><br><br><br>
+
+
+    
     <script src="index.js"></script>
 </body>
 </html>

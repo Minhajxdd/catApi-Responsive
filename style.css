@@ -195,3 +195,142 @@ nav .container .item a{
     margin-right: auto;
     fill: #40261e;
 }
+
+
+
+/* Section Two */
+
+
+.sec-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.sec-2 .container{
+    background-color: #F9FAFB;
+    width: 80%;
+    border-radius: 20px;
+    padding: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.sec-2 .container div{
+    margin-top: 15px;
+}
+
+.sec-2 .container .one{
+    width: 50%;
+}
+
+.sec-2 .container .two{
+    width: 50%;
+}
+
+.sec-2 .container .one .codeDiv{
+    background-color: #171717;
+    overflow-y: auto;
+    width: 525px;
+    height: 480px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.sec-2 .container .one .codeDiv .minimise{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: -7px;
+    left: 25px;
+}
+
+.sec-2 .container .one .codeDiv .minimise .round{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: blue;
+}
+
+.sec-2 .container .one .codeDiv .minimise .red{
+    background-color: #EF4444;
+}
+
+.sec-2 .container .one .codeDiv .minimise .yello{
+    background-color: #EAB308;
+}
+
+.sec-2 .container .one .codeDiv .minimise .green{
+    background-color: #22C55E;
+}
+
+.sec-2 .container .one .codeDiv .codeBox{
+    overflow-y: auto;
+}
+
+.sec-2 .container .one .codeDiv code{
+   
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.codepad{
+    margin-left: 20px;
+}
+
+.cd-keyword{
+    color: #c792ea;
+    font-style: italic;
+}
+
+.cd-title{
+    color: #dcdcaa;
+    font-style: italic;
+}
+
+.cd-string{
+    color: #ecc48d;   
+}
+
+.cd-attribute{
+    color: #7fdbca;
+}
+
+.cd-function{
+    color: #82aaff;
+}
+
+.cd-arrow{
+    color: #7fdbca;
+}
+
+.cd-variable{
+    color: #addb67;
+}
+
+.single-line {
+    white-space: nowrap;
+}
+
+.sec-2 .container .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-2 .container .two h1{
+    font-size: 60px;
+}
+
+.sec-2 .container .two .downLine{
+    background: linear-gradient(to top, #fda48c 40%, transparent 40%);
+}
+
+.sec-2 .container .two p{
+    color: #636A74;
+    font-size: 18px;
+}

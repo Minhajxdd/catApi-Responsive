@@ -211,7 +211,7 @@ nav .container .item a{
 .sec-2 .container{
     background-color: #F9FAFB;
     width: 80%;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 80px;
     display: flex;
     gap: 40px;
@@ -334,3 +334,211 @@ nav .container .item a{
     color: #636A74;
     font-size: 18px;
 }
+
+
+/* Section three */
+
+
+.sec-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-3 .tpbox h1{
+    background: linear-gradient(to top, #fda48c 40%, transparent 40%);
+    font-size: 60px;
+}
+
+.sec-3 .tpbox p{
+    color: #636A74;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.sec-3 .mdbox{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.sec-3 .mdbox .bord{
+    border: 1px solid #e3e7eb;
+}
+
+.sec-3 .mdbox div{
+     width: 390px;
+    height: 650px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sec-3 .mdbox div .tppart{
+    width: 100%;
+    height: 200px;
+    background-color: #F9FAFB;
+    padding: 35px;
+    padding-bottom: 42px;
+}
+
+.sec-3 .mdbox .box2 .tppart{
+    background-color: #FF6841;
+}
+
+.sec-3 .mdbox div .tppart h6{
+    font-size: 17px;
+}
+
+.sec-3 .mdbox div .tppart h3{
+    font-size: 35px;
+}
+
+.sec-3 .mdbox div .tppart p{
+    font-size: 16px;
+}
+
+.sec-3 .mdbox .mdpart{
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.sec-3 .mdbox .mdpart p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec-3 .mdbox .mdpart p svg{
+    width: 15px;
+    fill: #FF6841;
+}
+
+.sec-3 .mdbox .mdpart p .black{
+    fill: #000;
+}
+
+.sec-3 .mdbox .mdpart p span{
+    font-size: 11px;
+    background-color: #FF6841;
+}
+
+.sec-3 .mdbox .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-3 .mdbox .bottom a .btn{
+    background-color: #000;
+    width: 325px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.sec-3 .mdbox .bottom .marg{
+    margin-top: 34px;
+}
+
+.sec-3 .mdbox .bottom a .btn:hover{
+    background-color: #262626;
+}
+
+.sec-3 .mdbox .bottom a .btn p{
+    color: #ffff;
+    font-weight: bolder;
+}
+
+.sec-3 .btbox{
+    margin-top: 40px;
+    width: 820px;
+    height: 590px;
+    border: 1px solid #d6d9dc;
+    border-radius: 10px;
+}
+
+.sec-3 .btbox .tpbox{
+    border-radius: 10px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F9FAFB;
+}
+
+.sec-3 .btbox .tpbox *{
+    padding: 3px;
+}
+
+.sec-3 .btbox .tpbox h6{
+    font-size: 17px;
+}
+
+.sec-3 .btbox .tpbox h3{
+    font-size: 35px;
+}
+
+.sec-3 .btbox .tpbox p{
+    font-size: 16px;
+    color: #000;
+    text-align: start;
+}
+
+.sec-3 .btbox .mdbox{
+    height: 300px;
+    padding: 30px;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-3 .btbox .mdbox p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sec-3 .btbox .mdbox svg{
+    width: 15px;
+    fill: #FF6841;
+}
+
+.sec-3 .btbox .btpart{
+    display: flex;
+    justify-content: center;
+}
+
+.sec-3 .btbox .btpart .box{
+    width: 90%;
+    background-color: #000;
+    height: 45px;
+    position: static;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sec-3 .btbox .btpart .box:hover{
+    background-color: #262626;
+}
+
+.sec-3 .btbox .btpart .box p{
+    color: #fff; 
+}
+
+
+
+

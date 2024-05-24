@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+html,body{
+    overflow-x: hidden;
 }
 
 body{
@@ -539,6 +544,38 @@ nav .container .item a{
     color: #fff; 
 }
 
+/* Section four */
 
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+.sec-4 .content{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-4 .content h1{
+    font-size: 73px;
+}
+
+.sec-4 .content span{
+    background: linear-gradient(to top, #fda48c 40%, transparent 40%);
+
+}
+
+.sec-4 .content p{
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.sec-4 .content svg{
+    margin-top: 50px;
+}
 

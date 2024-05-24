@@ -579,3 +579,79 @@ nav .container .item a{
     margin-top: 50px;
 }
 
+
+/* Section five */
+
+.sec-5{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+}
+
+.sec-5 .box{
+    margin-top: 150px;
+    width: 1250px;
+    height: 350px;
+    background-color: #000;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-5 .box h1{
+    color: #fff;
+    font-size: 73px;
+
+}
+
+.sec-5 .box p{
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.sec-5 .box .btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.sec-5 .box .btn div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.sec-5 .box .btn .one{
+    
+    background-color: rgb(64 64 64 / 1);
+}
+
+.sec-5 .box .btn .one:hover{
+    background-color: #525252;
+}
+
+.sec-5 .box .btn div p{
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.sec-5 .box .btn .two{
+    background-color: #fff;
+}
+
+.sec-5 .box .btn .two:hover{
+    background-color: #ebdede;
+}
+
+.sec-5 .box .btn .two p{
+    color: #000;
+}
+
+
+
+

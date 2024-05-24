@@ -587,6 +587,7 @@ nav .container .item a{
    justify-content: center;
    align-items: center;
     width: 100%;
+
 }
 
 .sec-5 .box{
@@ -599,6 +600,7 @@ nav .container .item a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 160px;
 }
 
 .sec-5 .box h1{
@@ -653,5 +655,40 @@ nav .container .item a{
 }
 
 
+/* Footer Section */
 
 
+footer{
+    width: 100%;
+}
+
+footer .container{
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer .container div{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer .container .one img{
+    height: 36px;
+    width: 80px;
+    cursor: pointer;
+}
+
+footer .container div h6{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer .container div p{
+    font-size: 14px;
+    color: #9EA3AA;
+    cursor: pointer;
+}

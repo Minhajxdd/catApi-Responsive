@@ -9,7 +9,5 @@ toggle.addEventListener("click", () =>{
         dropDown.style.display = 'block';
     }else{
         dropDown.style.display = 'none';
-    }
-
-    
+    }    
 })

@@ -396,12 +396,8 @@ nav .container .item  .dropToggle{
 
 .sec-2 .container div{
     margin-top: 15px;
+    width: 95%;
 }
-
-.sec-2 .container div{
-    width: 50%;
-}
-
 
 .sec-2 .container .one .codeDiv{
     background-color: #171717;
